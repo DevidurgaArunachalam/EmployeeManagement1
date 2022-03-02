@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.launchclub.view;
+package com.launchclub.model;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
@@ -23,7 +23,6 @@ public class Activator implements BundleActivator {
 
     public void start(BundleContext context) {
         System.out.println("Starting the bundle");
-        EmployeeDetails.selectChoice();
     }
 
     public void stop(BundleContext context) {

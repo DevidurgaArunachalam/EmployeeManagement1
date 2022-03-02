@@ -63,7 +63,7 @@
                         <Bundle-Version>${project.version}</Bundle-Version>
                         <Bundle-Activator>com.launchclub.Activator</Bundle-Activator>
                         <Export-Package>
-                            com.launchclub*;version=${project.version}
+                            com.launchclub.model;version=${project.version}
                         </Export-Package>
                         <Import-Package>
                             *

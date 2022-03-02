@@ -1,14 +1,12 @@
 package com.launchclub.view;
 
+import com.launchclub.controller.EmployeeController;
 import com.launchclub.exception.CustomException.ConenctionNotFoundException;
 import com.launchclub.exception.CustomException.InvalidInputException;
+import com.launchclub.model.Employee;
 import com.launchclub.exception.CustomException.DataNotFoundException;
 import com.launchclub.exception.CustomException.IdAlreadyExistsException;
 import com.launchclub.exception.CustomException.IdNotFoundException;
-import com.launchclub.controller.EmployeeController;
-import com.launchclub.model.Employee;
-import com.launchclub.service.EmployeeDetailsValidation;
-
 import java.util.Map;
 import java.util.Scanner;
 
@@ -271,7 +269,7 @@ public class EmployeeDetails {
      *     Used to update the employee details by using iterator and 
      *     employeeId for checking the availability of the details of the employee
      *     and then update employee details using switch case 
-     *     implemetation by user choice.
+     *     Implementation by user choice.
      * </p>  
      */   
     public static void updateEmployeeDetails() {

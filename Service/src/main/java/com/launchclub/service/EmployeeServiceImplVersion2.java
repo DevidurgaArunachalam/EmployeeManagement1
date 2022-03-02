@@ -1,6 +1,7 @@
 package com.launchclub.service;
 
 import java.util.Map;
+
 import com.launchclub.dao.EmployeeDao;
 import com.launchclub.dao.EmployeeDaoImpl;
 import com.launchclub.exception.CustomException.DataNotFoundException;
@@ -39,7 +40,7 @@ import com.launchclub.model.Employee;
     }
 
     /**
-     * Deletes the employee deatails from the database
+     * Deletes the employee details from the database
      */
     public boolean deleteEmployee(final int employeeId) {
         

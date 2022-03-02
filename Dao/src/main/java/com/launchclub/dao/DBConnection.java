@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 
 
 /**
- * Used to get the database conenction 
+ * Used to get the database connection 
  * 
  * @author DeviDurgaA
  */

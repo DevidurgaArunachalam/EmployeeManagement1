@@ -1,9 +1,7 @@
 package com.launchclub.service;
 
 import java.time.LocalDate;
-
 import com.launchclub.exception.CustomException.InvalidInputException;
-
 
 public class EmployeeDetailsValidation {
 
@@ -85,7 +83,7 @@ public class EmployeeDetailsValidation {
      
      /**
       * <p>
-      *     Checks the choice of the uer as accepting
+      *     Checks the choice of the user as accepting
       *     only numerical values from 1-5 and return the validated input to the 
       *     Employee details class.
       * </p>  

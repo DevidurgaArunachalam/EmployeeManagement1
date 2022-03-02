@@ -5,7 +5,7 @@ import java.util.Map;
 import com.launchclub.model.Employee;
 
 /**
- * Inteface created for Employee database 
+ * Interface created for Employee database 
  */
 public interface EmployeeDao {
     

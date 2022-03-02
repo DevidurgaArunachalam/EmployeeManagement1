@@ -14,19 +14,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.launchclub;
+package com.viewActive;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
+import com.launchclub.view.EmployeeDetails;
+
 public class Activator implements BundleActivator {
 
-    public void start(BundleContext context) {
-        System.out.println("Starting the bundle");
-    }
+	public void start(BundleContext context) {
+		System.out.println("Starting the bundle");
+		EmployeeDetails.selectChoice();
+	}
 
-    public void stop(BundleContext context) {
-        System.out.println("Stopping the bundle");
-    }
+	public void stop(BundleContext context) {
+		System.out.println("Stopping the bundle");
+	}
 
 }
