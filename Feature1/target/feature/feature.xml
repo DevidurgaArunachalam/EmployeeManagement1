@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="Feature1-0.0.1-SNAPSHOT">
+    <feature name="Feature1" description="Feature1-feature" version="0.0.1.SNAPSHOT">
+        <details>Feature1 details</details>
+        <bundle start-level="50">mvn:com.launchclub/Controllers/0.0.1-SNAPSHOT</bundle>
+        <bundle start-level="50">mvn:com.launchclub/Services/0.0.1-SNAPSHOT</bundle>
+        <bundle start-level="50">mvn:com.launchclub/Daos/0.0.1-SNAPSHOT</bundle>
+        <bundle start-level="50">mvn:mysql/mysql-connector-java/8.0.28</bundle>
+        <bundle start-level="50">mvn:com.google.protobuf/protobuf-java/3.11.4</bundle>
+        <bundle start-level="50">mvn:com.launchclub/Exceptions/0.0.1-SNAPSHOT</bundle>
+        <bundle start-level="50">mvn:com.launchclub/Models/0.0.1-SNAPSHOT</bundle>
+    </feature>
+</features>

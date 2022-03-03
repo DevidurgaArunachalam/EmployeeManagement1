@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1646304391268
+Build-Jdk-Spec: 17
+Bundle-Activator: com.launchclub.main.Activator
+Bundle-Description: Main OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: Main Bundle
+Bundle-SymbolicName: Main
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.4
+Export-Package: com.launchclub.main;version="0.0.1.SNAPSHOT";uses:="org.
+ osgi.framework"
+Import-Package: com.launchclub.views;version="[0.0,1)",org.osgi.framewor
+ k;version="[1.9,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103

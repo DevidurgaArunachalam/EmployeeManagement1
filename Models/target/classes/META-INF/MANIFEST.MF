@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1646304389525
+Build-Jdk-Spec: 17
+Bundle-Activator: com.launchclub.models.Activator
+Bundle-Description: Models OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: Models Bundle
+Bundle-SymbolicName: Models
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.4
+Export-Package: com.launchclub.models;version="0.0.1.SNAPSHOT";uses:="or
+ g.osgi.framework"
+Import-Package: org.osgi.framework;version="[1.9,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103
