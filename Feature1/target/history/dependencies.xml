@@ -2,6 +2,7 @@
 <features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="Feature1-0.0.1-SNAPSHOT">
     <feature version="0.0.0">
         <bundle>mvn:com.google.protobuf/protobuf-java/3.11.4</bundle>
+        <bundle>mvn:com.launchclub/Daos/0.0.1-SNAPSHOT</bundle>
         <bundle>mvn:com.launchclub/EmployeeServices/0.0.1-SNAPSHOT</bundle>
         <bundle>mvn:com.launchclub/Exceptions/0.0.1-SNAPSHOT</bundle>
         <bundle>mvn:com.launchclub/databaseConnection/0.0.1-SNAPSHOT</bundle>

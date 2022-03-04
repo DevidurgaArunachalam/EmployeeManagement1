@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1646304391268
+Bnd-LastModified: 1646376346082
 Build-Jdk-Spec: 17
 Bundle-Activator: com.launchclub.main.Activator
 Bundle-Description: Main OSGi bundle project.

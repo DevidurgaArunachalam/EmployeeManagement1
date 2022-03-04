@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1646304391053
+Bnd-LastModified: 1646376345832
 Build-Jdk-Spec: 17
 Bundle-Activator: com.launchclub.views.Activator
 Bundle-Description: Views OSGi bundle project.
@@ -10,8 +10,8 @@ Bundle-Version: 0.0.1.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin 5.1.4
 Export-Package: com.launchclub.views;version="0.0.1.SNAPSHOT";uses:="org
  .osgi.framework"
-Import-Package: com.launchclub.controllers;version="[0.0,1)",com.launchc
- lub.exceptions;version="[0.0,1)",com.launchclub.models;version="[0.0,1)
- ",org.osgi.framework;version="[1.9,2)"
+Import-Package: com.launchclub.controllers,com.launchclub.exceptions;ver
+ sion="[0.0,1)",com.launchclub.models;version="[0.0,1)",org.osgi.framewo
+ rk;version="[1.9,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-5.1.1.202006162103

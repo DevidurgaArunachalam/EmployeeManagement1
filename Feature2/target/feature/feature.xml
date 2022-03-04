@@ -3,13 +3,11 @@
     <feature name="Feature2" description="Feature2-feature" version="0.0.1.SNAPSHOT">
         <details>Feature2 details</details>
         <bundle start-level="50">mvn:com.launchclub/Main/0.0.1-SNAPSHOT</bundle>
-        <bundle start-level="50">mvn:com.launchclub/Services/0.0.1-SNAPSHOT</bundle>
-        <bundle start-level="50">mvn:com.launchclub/Daos/0.0.1-SNAPSHOT</bundle>
+        <bundle start-level="50">mvn:com.launchclub/Views/0.0.1-SNAPSHOT</bundle>
+        <bundle start-level="50">mvn:com.launchclub/Exceptions/0.0.1-SNAPSHOT</bundle>
+        <bundle start-level="50">mvn:com.launchclub/EmployeeServices/0.0.1-SNAPSHOT</bundle>
+        <bundle start-level="50">mvn:com.launchclub/databaseConnection/0.0.1-SNAPSHOT</bundle>
         <bundle start-level="50">mvn:mysql/mysql-connector-java/8.0.28</bundle>
         <bundle start-level="50">mvn:com.google.protobuf/protobuf-java/3.11.4</bundle>
-        <bundle start-level="50">mvn:com.launchclub/Exceptions/0.0.1-SNAPSHOT</bundle>
-        <bundle start-level="50">mvn:com.launchclub/Models/0.0.1-SNAPSHOT</bundle>
-        <bundle start-level="50">mvn:com.launchclub/Views/0.0.1-SNAPSHOT</bundle>
-        <bundle start-level="50">mvn:com.launchclub/Controllers/0.0.1-SNAPSHOT</bundle>
     </feature>
 </features>

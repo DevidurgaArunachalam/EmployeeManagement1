@@ -19,22 +19,17 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.launchclub</groupId>
-			<artifactId>Controllers</artifactId>
+			<artifactId>EmployeeServices</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.launchclub</groupId>
-			<artifactId>Daos</artifactId>
+			<artifactId>databaseConnection</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.launchclub</groupId>
 			<artifactId>Exceptions</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.launchclub</groupId>
-			<artifactId>Models</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

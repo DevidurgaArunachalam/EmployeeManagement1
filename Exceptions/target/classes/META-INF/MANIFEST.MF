@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1646304389896
+Bnd-LastModified: 1646376344597
 Build-Jdk-Spec: 17
 Bundle-Activator: com.launchclub.exceptions.Activator
 Bundle-Description: Exceptions OSGi bundle project.

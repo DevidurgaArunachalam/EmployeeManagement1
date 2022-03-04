@@ -1,0 +1,5 @@
+local:com.launchclub:EmployeeServices:jar:0.0.1-SNAPSHOT (compile)
+local:com.launchclub:databaseConnection:jar:0.0.1-SNAPSHOT (compile)
+ local:mysql:mysql-connector-java:jar:8.0.28 (compile)
+  local:com.google.protobuf:protobuf-java:jar:3.11.4 (compile)
+local:com.launchclub:Exceptions:jar:0.0.1-SNAPSHOT (compile)

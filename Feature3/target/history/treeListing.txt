@@ -1,0 +1,8 @@
+local:com.launchclub:Feature2:xml:features:0.0.1-SNAPSHOT (compile)
+ from feature:com.launchclub:Main:jar:0.0.1-SNAPSHOT (compile)
+ from feature:com.launchclub:Views:jar:0.0.1-SNAPSHOT (compile)
+  from feature:com.launchclub:Exceptions:jar:0.0.1-SNAPSHOT (compile)
+  from feature:com.launchclub:EmployeeServices:jar:0.0.1-SNAPSHOT (compile)
+   from feature:com.launchclub:databaseConnection:jar:0.0.1-SNAPSHOT (compile)
+    from feature:mysql:mysql-connector-java:jar:8.0.28 (compile)
+     from feature:com.google.protobuf:protobuf-java:jar:3.11.4 (compile)
